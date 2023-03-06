@@ -36,6 +36,7 @@ gem "bootsnap", require: false
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS)
 gem "rack-cors"
 
+# Use devise for authentication devise-jwt for jwt and jsonapi-serializer for serialization
 gem 'devise'
 gem 'devise-jwt'
 gem 'jsonapi-serializer'
